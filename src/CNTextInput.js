@@ -1377,7 +1377,6 @@ class CNTextInput extends Component {
       
       return (
         <TextInput
-          {...textInputProps}
           underlineColorAndroid="rgba(0,0,0,0)"
           onSelectionChange={this.onSelectionChange}
           multiline
